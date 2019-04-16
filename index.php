@@ -1,14 +1,9 @@
-<?php
 
-date_default_timezone_set('Europe/Vilnius');
-
-?>
-
+<!DOCTYPE html>
 <html>
     <head>
         <title>Komentarai</title>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
         <h1>
@@ -20,9 +15,9 @@ date_default_timezone_set('Europe/Vilnius');
         <p>
             Aš toks vienišas jaunas paragrafas...
         </p>
-        <p>
+<!--        <p>
             Mindau svetimo kodo gatves...
-        </p>
+        </p>-->
     </body>
 </html>
 
