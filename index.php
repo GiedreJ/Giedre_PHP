@@ -1,16 +1,29 @@
+<?php
+
+date_default_timezone_set('Europe/Vilnius');
+
+?>
+
 <html>
     <head>
-        <title> PHP lydės ir <?php print date('D', (strtotime ('+1 day'))); ?>!</title>
+        <title>Komentarai</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
         <h1>
-            Giedrė - PHP su manim buvo ir <?php print date('H', (strtotime ('-1 hour'))) . ' valandą '; ?>
+            Dainų Tekstai 
         </h1>
+        <h2>
+            Paragrafo Daina
+        </h2>
         <p>
-            <?php print date ('Y', (strtotime ('+1 year'))); ?> už kalnų!
+            Aš toks vienišas jaunas paragrafas...
+        </p>
+        <p>
+            Mindau svetimo kodo gatves...
         </p>
     </body>
 </html>
+
 
