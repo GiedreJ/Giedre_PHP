@@ -1,1 +1,1 @@
-<?php echo "Veikia!" ?>
+<?php print "veikia su Git" ?>
