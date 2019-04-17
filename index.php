@@ -14,6 +14,13 @@
         </p>
         <img src="IMG/<?php print rand(1, 6); ?>.png">
         
+        <div>
+            <img src="IMG/bomb.png" style="width:<?php print rand(10, 30);?>%">
+        </div>
+        <div>
+            <?php print date('s');?>
+        </div>
+        
         
         
     </body>
