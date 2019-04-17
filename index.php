@@ -13,9 +13,7 @@
             Aš keičiu savo spalvą!
         </p>
         <img src="IMG/<?php print rand(1, 6); ?>.png">
-        <p>
-            Labas git!
-        </p>
+        
         
     </body>
 </html>
