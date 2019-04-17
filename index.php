@@ -2,16 +2,18 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>PHP lydės ir <?php print date(rand(2019, 2029)) . date(rand(1, 12)) . date(rand(1, 27)); ?> </title>
+        <title></title>
         <meta charset="UTF-8">
     </head>
-    <body>
-        <h1>
-            Giedrė - Galbūt turėsiu <?php print rand(1 , 5); ?> vaikų(us)!
+    <body style="background-color: rgb(<?php print rand(000, 255) . ', ' . rand(000, 255) . ', ' . rand(000, 255);?>)">
+        <h1 style="font-size: <?php print rand(12, 140);?>px">
+            Aš keičiu savo dydį!
         </h1>
-        <p>
-            D. Trump'as nebus prezidentu <?php print date(rand(2021, 2031)) . date(' M, d '); ?>
-        </p>     
+        <p style="color: rgb(<?php print rand(000, 255) . ', ' . rand(000, 255) . ', ' . rand(000, 255);?>)">
+            Aš keičiu savo spalvą!
+        </p>
+        <img src="IMG/<?php print rand(1, 6); ?>.png">
+        
     </body>
 </html>
 
