@@ -2,23 +2,18 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Komentarai</title>
+        <title>PHP lydės ir <?php print date(rand(2019, 2029)) . date(rand(1, 12)) . date(rand(1, 27)); ?> </title>
         <meta charset="UTF-8">
     </head>
     <body>
         <h1>
-            Dainų Tekstai 
+            Giedrė - Galbūt turėsiu <?php print rand(1 , 5); ?> vaikų(us)!
         </h1>
-        <h2>
-            Paragrafo Daina
-        </h2>
         <p>
-            Aš toks vienišas jaunas paragrafas...
-        </p>
-<!--        <p>
-            Mindau svetimo kodo gatves...
-        </p>-->
+            D. Trump'as nebus prezidentu <?php print date(rand(2021, 2031)) . date(' M, d '); ?>
+        </p>     
     </body>
 </html>
+
 
 
